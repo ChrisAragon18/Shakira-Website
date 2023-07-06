@@ -309,7 +309,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--third-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p {
@@ -414,6 +414,19 @@ span {
         margin-top: 4rem;
     }
 
+    .history {
+        flex-direction: column-reverse;
+    }
+
+    .history-box img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .history h2 {
+        margin-bottom: 3rem;
+    }
+
     .portfolio h2 {
         margin-bottom: 3rem;
     }
@@ -441,6 +454,10 @@ span {
     }
 
     .about-img img {
+        width: 90vw;
+    }
+
+    .history-img img {
         width: 90vw;
     }
 

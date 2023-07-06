@@ -45,8 +45,8 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .portfolio-box', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' })
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' })
+ScrollReveal().reveal('.home-content h1, .about-img, .history-img', { origin: 'left' })
+ScrollReveal().reveal('.home-content p, .about-content, .history-content', { origin: 'right' })
 
 /*===== Typed JS =====*/
 const typed = new Typed('.multiple-text', {
