@@ -82,6 +82,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: var(--bg-color);
 
 }
 
@@ -196,6 +197,35 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.history {
+    background: var(--second-bg-color);
+}
+
+.history-box img {
+    width: 35vw;
+}
+
+.history-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.history h2 {
+    margin-bottom: 4rem;
+}
+
+.history-content h3 {
+    text-align: left;
+    font-size: 2.6rem;
+}
+
+.history-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
 .portfolio {
     background: var(--third-bg-color);
 }
@@ -207,11 +237,6 @@ span {
 .portfolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-}
-
-.about-container {
     align-items: center;
     gap: 2.5rem;
 }
