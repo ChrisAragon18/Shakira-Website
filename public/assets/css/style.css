@@ -303,6 +303,47 @@ span {
     color: var(--third-bg-color);
 }
 
+.credits {
+    background: var(--third-bg-color);
+}
+
+.credits h3 {
+    text-align: left;
+}
+
+.credits-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.credits-box h4 {
+    text-align: left;
+    font-size: 3rem;
+}
+
+.credits-social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 1rem 1rem .5rem 1.5rem;
+    transition: .5s ease;
+}
+
+.credits-social-media a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
 .footer {
     display: flex;
     justify-content: space-between;

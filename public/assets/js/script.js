@@ -43,7 +43,7 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-content, .heading, .credits-box', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .portfolio-box', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img, .history-img', { origin: 'left' })
 ScrollReveal().reveal('.home-content p, .about-content, .history-content', { origin: 'right' })
