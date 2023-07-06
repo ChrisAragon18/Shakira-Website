@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    /*background: var(--bg-color);*/
     color: var(--text-color);
 }
 
@@ -307,6 +307,10 @@ span {
     background: var(--third-bg-color);
 }
 
+.credits h2 {
+    margin-bottom: 4rem;
+}
+
 .credits h3 {
     text-align: left;
 }
@@ -474,6 +478,15 @@ span {
 
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .credits {
+        flex-direction: column-reverse;
+    }
+
+    .credits h2 {
+        margin-bottom: 3rem;
+
     }
 }
 
