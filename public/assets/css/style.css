@@ -226,6 +226,10 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.history-content a {
+    color: var(--alt-bg-color);
+}
+
 .portfolio {
     background: var(--third-bg-color);
 }
