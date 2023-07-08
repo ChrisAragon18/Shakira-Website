@@ -352,6 +352,10 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+.credits-box a {
+    color: var(--alt-bg-color);
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
